@@ -13,7 +13,7 @@ from time import sleep
 # See our help page to learn how to get a WEST EUROPE Microsoft API Key at
 #  https://help.aigaming.com/game-help/signing-up-for-azure
 #                                              *** Use westeurope API key for best performance ***
-headers_vision = {"Ocp-Apim-Subscription-Key": "c43aefd7e38d4683b40f4cdb6518f63c"}
+headers_vision = {"Ocp-Apim-Subscription-Key": API KEY}
 vision_base_url = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/"
 params_analyse = {
     "visualFeatures": "categories,tags,description,faces,imageType,color,adult",
